@@ -1,0 +1,24 @@
+package numericData;
+
+class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String name = "NOOR AISYAH HANUM BINTI MOHD HISYAM";  
+		
+		double sem1 = 3.58; 
+		double sem2 = 3.54;
+		double cgpa = (sem1 + sem2)/2;
+	
+		
+		cgpa = (sem1+ sem2) / 2;
+		
+		System.out.println("Name : "+ name);
+		System.out.println("Programme : Science");
+		System.out.println("Collage : Kolej Matrikulasi Pulau Pinang");
+		System.out.println("No.Matrik : MS2013102617");
+		System.out.printf("CGPA : %2f " , cgpa);
+	}
+
+}
