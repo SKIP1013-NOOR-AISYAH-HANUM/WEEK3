@@ -1,0 +1,62 @@
+package Task1;
+
+class RectangleComputing {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double length;
+		double width;
+		double area;
+		double perimeter;
+		
+		// Assign a value to length and width. (We shall read in the value from the keyboard later.)
+		length = 15.8;
+		width = 8.5;
+		// Compute area and perimeter
+		area = length*width;
+		perimeter = (length*width)*2;
+		
+		// Print results
+		System.out.printf("The area is : %.2f \n",area);
+		System.out.print("The perimeter is :");
+		System.out.println(perimeter);
+		
+
+	}
+
+}
+
+package Task1;
+
+class CylinderComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double radius;
+		double height;
+		double surfaceArea;
+		double baseArea;
+		double volume;
+		
+		// Declare a double to hold PI.
+		// Declare as "final" to specify that its value cannot be changed (i.e. constant).
+		final double PI = 3.14159265;
+		
+		// Assign a value to radius. (We shall read in the value from the keyboard later.)
+		radius = 1.2;
+		height = 5.4;
+		// Compute surfaceArea, baseArea and volume
+		surfaceArea =(2*PI*radius*radius) + (2*PI*radius*height);
+		baseArea = PI*radius*radius;
+		volume = PI*radius*radius*height;
+		
+		//Print results
+		System.out.printf("The surface area is : %.2f \n" , surfaceArea);
+		System.out.printf("The base area is : %.2f \n" , baseArea);
+		System.out.printf("The volume is : %.2f \n" , volume);
+		
+
+	}
+
+}
+
